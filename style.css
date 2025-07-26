@@ -136,7 +136,7 @@ body {
     box-shadow: 10px 10px 50px 5px black;
 }
 #remerciement {
-    height: 50px;
+    height: 30px;
     width: 100%;
     background-color:#2b1a0e;
     position: fixed;
@@ -153,8 +153,8 @@ body {
     font-weight: 700;
 }
 #lien-paul {
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
 }
 #paulinsta {
     height: 100%;
