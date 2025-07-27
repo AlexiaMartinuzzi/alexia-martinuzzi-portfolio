@@ -125,15 +125,15 @@ body {
 }
 #promethee {
     position: relative;
-    height: 500px;
-    width: 355px;
+    height: 510px;
+    width: 365px;
     margin: 100px;
-    background-image :url('./image/Promothéthée.png');
+    background-image :url('./image/Promothéthée.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     z-index: 2;
-    box-shadow: 10px 10px 50px 5px black;
+    box-shadow: 10px 20px 50px 5px black;
 }
 #remerciement {
     height: 30px;

@@ -95,6 +95,25 @@ body {
     margin-top: 20px;
     margin-right: 100px;
 }
+#image-tradi {
+    height: 600px;
+    width: 600px;
+    background-image: url('../image/IEUFCGFM.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    margin: 20px 0 0 300px;
+
+}
+.legend {
+    display: flex;
+    text-align: center;
+    margin-top: 520px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 1px;
+}
 /*.galerie {
     height: 800px;
     width: 800px;
