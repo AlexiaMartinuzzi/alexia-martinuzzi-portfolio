@@ -16,6 +16,7 @@ body {
     display: flex;
     align-items: center;
     position: fixed;
+    z-index: 11;
 }
 #left-part-container {
     opacity: 0;
@@ -86,6 +87,7 @@ body {
 }
 #container {
     display: flex;
+    justify-content: space-between;
 }
 #text {
     height: 600px;
@@ -97,22 +99,30 @@ body {
 }
 #image-tradi {
     height: 600px;
-    width: 600px;
+    width: 500px;
     background-image: url('../image/IEUFCGFM.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
-    margin: 20px 0 0 300px;
+    align-items: flex-end;
+    margin: 20px 200px 0 0px;
 
 }
 .legend {
     display: flex;
     text-align: center;
-    margin-top: 520px;
     color: white;
     text-shadow: 2px 2px 2px black;
     letter-spacing: 1px;
+    background-color: grey;
+}
+.ensemble {
+    display: flex;
+    justify-content: center;
+}
+.frise {
+    
 }
 /*.galerie {
     height: 800px;
@@ -128,15 +138,17 @@ body {
     display: block;
 }*/
 .galerie {
-    height: 800px;
-    width: 800px;
+    height: 900px;
+    width: 900px;
+    margin-top: 80px;
     display: flex;
     flex-wrap: wrap; /*(no wrap)reste sur une seule ligne -(wrap) passe à la ligne*/
     gap: 10px;
+    margin-right: 50px;
 }
 .galerie img {
-    flex: 1 0 calc(33.333% - 10px);
-    max-width: calc(33.333% - 10px);
+    flex: 1 0 calc(25% - 10px);
+    max-width: calc(25% - 10px);
     height: auto;
     display: block;
 }
